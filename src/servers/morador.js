@@ -11,7 +11,7 @@ toast.configure(
 
 export const MoradorService = {
   
-  submitMarca: async (value) => {
+  submitMorador: async (value) => {
     try {
       return await api[globalTypes.method.POST](globalTypes.url.BARRAGEM_MORADOR, value)
     } catch (error) {

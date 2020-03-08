@@ -118,7 +118,7 @@ export default function Form() {
       setShowErrors(true);
     } else {
       
-        await moradorService.submitMarca(values) ;  
+        await moradorService.submitMorador(values) ;  
       
         await toast.success(`Cadastro realizado com sucesso.`)
 
