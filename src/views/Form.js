@@ -174,7 +174,7 @@ export default function Form() {
               <TextField
                 error={validation.email(values.idade) && showErrors}
                 fullWidth
-                helperText={showErrors && validation.email(values.idade)}
+                helperText={showErrors && validation.number(values.idade)}
                 label="Idade"
                 name="idade"
                 onChange={handleChange}
